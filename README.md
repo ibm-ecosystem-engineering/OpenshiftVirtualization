@@ -7,7 +7,8 @@ Step 1:
 
 Open the Operator HUB in OpenShift web console and search virtualization in search filter. Select the **OpenShift Virtualization** tile and click to install.
 
-![](RackMultipart20201007-4-1f8iwlg_html_f5b4f1ec5525e74f.png)
+<img src="images/opertor-hub.png" width="900" >
+
 
 Step 2:
 
