@@ -1,7 +1,7 @@
 
 # **OpenShift Virtualization**
 
-# Installing Operator:
+## Installing Operator:
 
 
 
@@ -12,7 +12,7 @@ Open the Operator HUB in OpenShift web console and search virtualization in sear
 <img src="images/opertor-hub.png" width="900" >
 
 
-Step 2:
+***Step 2:***
 
 Select the Operator recommended namespace **openshift-cnv** and choose the version and approval strategy.
 
@@ -20,13 +20,13 @@ Note: While trying to create the namespace through OpenShift CLI. It will not al
 
 <img src="images/opertor-installation.png" width="900" >
 
-Step 3:
+***Step 3:***
 
 Click the Installed Operators and will see the status of the Operator Installation and Click the **CNV Operator Deployment** in Provided APIs tap.
 
 <img src="images/cnvoperator.png" width="900" >
 
-Step 4:
+***Step 4:***
 
 Create **Create HyperConverged** Cluster with default YAML valuesin **CNV Operator Deployment** page.
 
@@ -34,9 +34,9 @@ Create **Create HyperConverged** Cluster with default YAML valuesin **CNV Operat
 
 Once you created the cluster check the pods are running.
 
-# Creating Virtual machine USING URL
+## Creating Virtual machine USING URL
 
-Step 1:
+***Step 1:***
 
 After successful Operator Installation click Virtual Machine in Workloads section.
 
