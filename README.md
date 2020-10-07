@@ -1,7 +1,9 @@
 
 # **OpenShift Virtualization**
-
+```
 # Installing Operator:
+
+```
 
 Step 1:
 
@@ -60,7 +62,7 @@ Before creating VM need to create the Disk. Create the PVC where you are going t
 
 Step 4:
 
-Once you created the PVC. Navigate to Workloads-\&gt;Virtual Machine. Click the Create Virtual Machine with &quot;New Wizard&quot;.
+Once you created the PVC. Navigate to Workloads and Select the Virtual Machine. Click the Create Virtual Machine with &quot;New Wizard&quot;.
 
 <img src="images/vmdetails.png" width="900" >
 
@@ -85,37 +87,47 @@ Step 7:
 
 Networking of the VM. By default we are going POD Networking. So there is no change in the section. Click Next button.
 
-![](RackMultipart20201007-4-1f8iwlg_html_468ba47b528cc76e.png)
+<img src="images/networkinterface.png" width="900" >
 
 Edit the Network Interface and updated network type **bridge**.
 
-![](RackMultipart20201007-4-1f8iwlg_html_f51721ac33e805b6.png)
+<img src="images/networkinterface1.png" width="900" >
 
 Step 8:
 
-In the Storage section by default disk displayed with the size of 10 GB and Source is URL. If you want modify the disk clicking of 3 dot in the right side corner. Here this will act as bootable disk. Click add disk button add the new disk with our existing PVC.
+In the Storage section by default disk displayed with the size of 10 GB and Source is URL. If you want modify the disk clicking of 3 dot in the right side corner. Here this will be act as bootable disk. Click add disk button add the new disk with our existing PVC.
 
-![](RackMultipart20201007-4-1f8iwlg_html_e88384a1e144894e.png)
+<img src="images/additionaldisk.png" width="900" >
 
 Step 9:
 
 In the additional disk screen select source as **Attach Disk** and **Select your PVC which you created earlier.** Navigate to the next section **Advanced Section .** We are not going to change anything in **Cloud-init** and **Virtual Hardware.**
 
-![](RackMultipart20201007-4-1f8iwlg_html_50d0000045a529f8.png)
+<img src="images/additionaldisk1.png" width="900" >
 
 **Cloud-init**
 
-![](RackMultipart20201007-4-1f8iwlg_html_4d2d7f969e6f134a.png)
+if SSH based authentication needed configure the **SSH Key** otherwise Skip the section.
+
+<img src="images/cloudinit.png" width="900" >
 
 **Virtual Hardware**
 
-Step 10: ![](RackMultipart20201007-4-1f8iwlg_html_1b07074ae2df06dc.png)
+If **CD-ROM**  disk needed attach the disk otherwise skip this section. 
+
+<img src="images/virtualhw.png" width="900" >
 
 Step 10:
 
-Finally review your changes and click the **Create Virtual Machine** button.
+Finally review your configuration changes and click the **Create Virtual Machine** button.
 
-![](RackMultipart20201007-4-1f8iwlg_html_368454b130fce5da.png)
+<img src="images/review.png" width="900" >
+
+Step 11:
+
+Once the VM created successfully,View VM details. if you have choosen option start VM while creation. it will automatically start once the VM creation done. Otherwise you have manually start the VM.
+
+<img src="images/success.png" width="900" >
 
 Step 11:
 
