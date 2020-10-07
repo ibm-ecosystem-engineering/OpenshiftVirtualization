@@ -35,7 +35,7 @@ Create **Create HyperConverged** Cluster with default YAML valuesin **CNV Operat
 
 Once you created the cluster check the pods are running.
 
-## Creating Virtual machine USING URL
+## Creating Virtual machine Using URL
 
 ***Step 1:***
 
@@ -130,7 +130,36 @@ Once the VM created successfully,View VM details. if you have choosen option sta
 
 <img src="images/success.png" width="900" >
 
-***Step 11:***
+***Step 12:***
+
+In the VM details page click the **Console** tap and by default ***VNC Console*** got selected. You can able see OS boot configuration progress.
+
+## OS Installation and Configuration
+
+Based on your ISO image of Operating System the configuration will begins.  For this case, we are using **RHEL 8** ISO image for creating RHEL based Linux VM.
+
+***Step 1:***
+
+Select your langueage and click continue.
+
+<img src="images/languageselection.png" width="900" >
+
+***Step 2:***
+
+RHEL Installation summary page will be displayed. Click the **Installation Destination** . 
+
+<img src="images/setuppage.png" width="900" >
+
+Choose the disk for OS installation and click done.
+
+<img src="images/diskselection.png" width="900" >
+
+***Step 3:***
+
+Select the **Network & Host Name** in  Installation summary page. Enable Ethernet and apply hostname or go with default hostname.
+
+<img src="images/network&host.png" width="900" >
+
 
 Once your OS Installation done. You have to remove your bootable disk in VM Details page.
 
