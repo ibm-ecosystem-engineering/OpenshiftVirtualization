@@ -160,9 +160,55 @@ Select the **Network & Host Name** in  Installation summary page. Enable Etherne
 
 <img src="images/network&host.png" width="900" >
 
+***Step 4:***
 
-Once your OS Installation done. You have to remove your bootable disk in VM Details page.
+In the Installation summary page click **Begin Installation** button. Now the installation getting started.
 
-![](RackMultipart20201007-4-1f8iwlg_html_2ed7d026a05c0b36.png)
+*** Step 5: ***
+
+While installation  in **USER SETTINGS** page creating root password and username.
+
+usersettings.png
+
+<img src="images/usersettings.png" width="900" >
+
+Set the root Password.
+
+<img src="images/rootpwd.png" width="900" >
+
+Create the Username
+
+<img src="images/usercreation.png" width="900" >
+
+*** Step 6: ***
+
+Once your OS Installation done.  The reboot screen will appear don't start the reboot. Stop the VM and Navigate to the VM details page.
+
+<img src="images/reboot.png" width="900" >
+
+*** Step 7: ***
+
+In the VM details page edit the **Boot Order** and remove the root disk and add the disk which created using PVC.
+
+<img src="images/removerootdisk.png" width="900" >
+
+
+Start the VM.
+
+*** Step 8: ***
+
+Once you started the VM the Final Cobnfiguration page will appear. Select **License Information** and click the agreement.  
+
+<img src="images/finalconfiguration.png" width="900" >
+
+For this case we are installing RHEL based linux OS. So we need to register the  **REDHAT Subscription Manager** . Once registerd successfully Click the **FINISH CONFIGURATION** button.
+
+<img src="images/rhelsubscritionmanager.png" width="900" >
+
+*** Step 9: ***
+
+Now the OS Installation done. Navigate to the console page and login to your RHEL based LINUX VM using your Username and Password.
+
+<img src="images/rhelhome.png" width="900" >
 
 **Author: Muthu Sundaravadivel**
