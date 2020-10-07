@@ -16,13 +16,13 @@ Select the Operator recommended namespace **openshift-cnv** and choose the versi
 
 Note: While trying to create the namespace through OpenShift CLI. It will not allow to create specified namespace. So choose recommended namespace it will automatically create the namespace at backend.
 
-![](RackMultipart20201007-4-1f8iwlg_html_e1a8fef16dcf814b.png)
+<img src="images/opertor-installation.png" width="900" >
 
 Step 3:
 
 Click the Installed Operators and will see the status of the Operator Installation and Click the **CNV Operator Deployment** in Provided APIs tap.
 
-![](RackMultipart20201007-4-1f8iwlg_html_bb980f8beae56566.png)
+<img src="images/cnvoperator.png" width="900" >
 
 Step 4:
 
