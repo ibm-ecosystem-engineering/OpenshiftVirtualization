@@ -1,7 +1,22 @@
 
 # **OpenShift Virtualization**
 
-## Installing Operator:
+## Openshift  Virtualization Conceptual View
+
+<img src="images/cview.png" width="900" >
+
+## Openshift  Virtualization Architecture Deep Dive View
+
+
+<img src="images/architectureview.png" width="900" >
+
+## Openshift  Virtualization Operator  View
+
+
+<img src="images/operatorview.png" width="900" >
+
+
+# Installing Operator:
 
 
 
@@ -14,28 +29,28 @@ Open the Operator HUB in OpenShift web console and search virtualization in sear
 
 ***Step 2:***
 
-Select the Operator recommended namespace **openshift-cnv** and choose the version and approval strategy.
+Select the Operator and recommended namespace **openshift-cnv** and choose the version and approval strategy.
 
-***Note:*** While trying to create the namespace through OpenShift CLI. It will not allow to create specified namespace. So choose recommended namespace it will automatically create the namespace at backend.
+***Note:*** While trying to create the namespace through OpenShift CLI. It will not allow to create specified namespace. So recommended namespace automatically create the at the backend process.
 
 
 <img src="images/opertor-installation.png" width="900" >
 
 ***Step 3:***
 
-Click the Installed Operators and will see the status of the Operator Installation and Click the **CNV Operator Deployment** in Provided APIs tap.
+Click the Installed Operators and will see the status of the Operator Installation and Click the **CNV Operator Deployment** in **Provided APIs** tap.
 
 <img src="images/cnvoperator.png" width="900" >
 
 ***Step 4:***
 
-Create **Create HyperConverged** Cluster with default YAML valuesin **CNV Operator Deployment** page.
+Create **Create HyperConverged** Cluster with default YAML values in **CNV Operator Deployment** page.
 
 <img src="images/hyperconvergedcluster.png" width="900" >
 
 Once you created the cluster check the pods are running.
 
-## Creating Virtual machine Using URL
+# Creating Virtual machine Using URL
 
 ***Step 1:***
 
@@ -86,7 +101,7 @@ Select the Source as URL and Give the URL of ISO image which you downloaded and 
 
 ***Step 7:***
 
-Networking of the VM. By default we are going POD Networking. So there is no change in the section. Click Next button.
+Networking of the VM. By default we are going POD Networking.
 
 <img src="images/networkinterface.png" width="900" >
 
@@ -96,7 +111,7 @@ Edit the Network Interface and updated network type **bridge**.
 
 ***Step 8:***
 
-In the Storage section by default disk displayed with the size of 10 GB and Source is URL. If you want modify the disk clicking of 3 dot in the right side corner. Here this will be act as bootable disk. Click add disk button add the new disk with our existing PVC.
+In the Storage section by default root disk displayed with the size of 10 GB and Source is URL. If you want modify the disk clicking of 3 dot in the right side corner. Here this will be act as bootable disk. Click add disk button add the new disk with our existing PVC.
 
 <img src="images/additionaldisk.png" width="900" >
 
@@ -126,7 +141,7 @@ Finally review your configuration changes and click the **Create Virtual Machine
 
 ***Step 11:***
 
-Once the VM created successfully,View VM details. if you have choosen option start VM while creation. it will automatically start once the VM creation done. Otherwise you have manually start the VM.
+Once the VM created successfully,View VM details. if you have choosen option start VM while creation. it will automatically start, Once the VM creation done. Otherwise you have to manually start the VM.
 
 <img src="images/success.png" width="900" >
 
