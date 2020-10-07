@@ -195,13 +195,13 @@ Create the Username
 
 <img src="images/usercreation.png" width="900" >
 
-*** Step 6: ***
+***Step 6:***
 
 Once your OS Installation done.  The reboot screen will appear don't start the reboot. Stop the VM and Navigate to the VM details page.
 
 <img src="images/reboot.png" width="900" >
 
-*** Step 7: ***
+***Step 7:***
 
 In the VM details page edit the **Boot Order** and remove the root disk and add the disk which created using PVC.
 
@@ -210,7 +210,7 @@ In the VM details page edit the **Boot Order** and remove the root disk and add 
 
 Start the VM.
 
-*** Step 8: ***
+***Step 8:***
 
 Once you started the VM the Final Cobnfiguration page will appear. Select **License Information** and click the agreement.  
 
@@ -220,7 +220,7 @@ For this case we are installing RHEL based linux OS. So we need to register the 
 
 <img src="images/rhelsubscritionmanager.png" width="900" >
 
-*** Step 9: ***
+***Step 9:***
 
 Now the OS Installation done. Navigate to the console page and login to your RHEL based LINUX VM using your Username and Password.
 
