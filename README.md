@@ -179,7 +179,7 @@ Select the **Network & Host Name** in  Installation summary page. Enable Etherne
 
 In the Installation summary page click **Begin Installation** button. Now the installation getting started.
 
-*** Step 5: ***
+***Step 5:***
 
 While installation  in **USER SETTINGS** page creating root password and username.
 
