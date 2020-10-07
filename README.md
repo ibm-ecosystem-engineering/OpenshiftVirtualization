@@ -5,7 +5,7 @@
 
 
 
-Step 1:
+***Step 1:***
 
 Open the Operator HUB in OpenShift web console and search virtualization in search filter. Select the **OpenShift Virtualization** tile and click to install.
 
