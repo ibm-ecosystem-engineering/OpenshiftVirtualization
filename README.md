@@ -28,7 +28,7 @@ Step 4:
 
 Create **Create HyperConverged** Cluster with default YAML valuesin **CNV Operator Deployment** page.
 
-![](RackMultipart20201007-4-1f8iwlg_html_b7bf1a18b3cceaf5.png)
+<img src="images/hyperconvergedcluster.png" width="900" >
 
 Once you created the cluster check the pods are running.
 
@@ -38,7 +38,7 @@ Step 1:
 
 After successful Operator Installation click Virtual Machine in Workloads section.
 
-![](RackMultipart20201007-4-1f8iwlg_html_260b58a0d13f19f7.png)
+<img src="images/vm.png" width="900" >
 
 Step 2:
 
@@ -56,13 +56,13 @@ Step 3:
 
 Before creating VM need to create the Disk. Create the PVC where you are going to create the VM( Select namespace ). Create the PVC in OpenShift web console Storage section. Select Storage Class and name of the PVC and Access Mode , Size.
 
-![](RackMultipart20201007-4-1f8iwlg_html_69c4a9df2f0e89f2.png)
+<img src="images/pvc.png" width="900" >
 
 Step 4:
 
 Once you created the PVC. Navigate to Workloads-\&gt;Virtual Machine. Click the Create Virtual Machine with &quot;New Wizard&quot;.
 
-![](RackMultipart20201007-4-1f8iwlg_html_c28a0161b9141d8e.png)
+<img src="images/vmdetails.png" width="900" >
 
 Step 5:
 
@@ -79,7 +79,7 @@ Step 6:
 
 Select the Source as URL and Give the URL of ISO image which you downloaded and uploaded into any S3 Bucket storage. Select OS and Flavour ( SIZE OF THE VM) , Workload Profile ( Server, Desktop etc..), Name of the VM. Finally Click Next button.
 
-![](RackMultipart20201007-4-1f8iwlg_html_861a9bd9715b572b.png)
+<img src="images/vmdetails1.png" width="900" >
 
 Step 7:
 
