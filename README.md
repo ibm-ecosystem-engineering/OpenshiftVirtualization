@@ -1,9 +1,9 @@
 
 # **OpenShift Virtualization**
-```
+
 # Installing Operator:
 
-```
+
 
 Step 1:
 
