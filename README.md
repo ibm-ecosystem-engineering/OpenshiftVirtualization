@@ -22,14 +22,14 @@
 
 ***Step 1:***
 
-Open the Operator HUB in OpenShift web console and search virtualization in search filter. Select the **OpenShift Virtualization** tile and click to install.
+Open the operator HUB in OpenShift web console and search virtualization in search filter. Select the **OpenShift Virtualization** tile and click to install.
 
 <img src="images/opertor-hub.png" width="900" >
 
 
 ***Step 2:***
 
-Select the Operator and recommended namespace **openshift-cnv** and choose the version and approval strategy.
+Select the operator and recommended namespace **openshift-cnv** and choose the version and approval strategy.
 
 ***Note:*** While trying to create the namespace through OpenShift CLI. It will not allow to create specified namespace. So recommended namespace automatically create the at the backend process.
 
@@ -38,7 +38,7 @@ Select the Operator and recommended namespace **openshift-cnv** and choose the v
 
 ***Step 3:***
 
-Click the Installed Operators and will see the status of the Operator Installation and Click the **CNV Operator Deployment** in **Provided APIs** tap.
+Click the installed operators and will see the status of the operator installation and click the **CNV Operator Deployment** in **Provided APIs** tap.
 
 <img src="images/cnvoperator.png" width="900" >
 
@@ -50,11 +50,11 @@ Create **Create HyperConverged** Cluster with default YAML values in **CNV Opera
 
 Once you created the cluster check the pods are running.
 
-# Creating Virtual machine Using URL
+# Creating virtual machine using URL
 
 ***Step 1:***
 
-After successful Operator Installation click Virtual Machine in Workloads section.
+After successful operator installation click virtual machine in workloads section.
 
 <img src="images/vm.png" width="900" >
 
@@ -66,7 +66,7 @@ Create the VM with the following option
 - Important with Wizard.
 - New From YAML.
 
-Optionally you can also create the VM using Virtual Machine Templates.
+Optionally you can also create the VM using virtual machine templates.
 
 ## Creating VM with New Wizard
 
@@ -78,13 +78,13 @@ Before creating VM need to create the Disk. Create the PVC where you are going t
 
 ***Step 4:***
 
-Once you created the PVC. Navigate to Workloads and Select the Virtual Machine. Click the Create Virtual Machine with &quot;New Wizard&quot;.
+Once you created the PVC. Navigate to workloads and select the virtual machine. Click the create virtual machine with &quot;New Wizard&quot;.
 
 <img src="images/vmdetails.png" width="900" >
 
 ***Step 5:***
 
-Creating Virtual Machine with following sources.
+Creating virtual machine with following sources.
 
 - PXE
 - URL
@@ -95,7 +95,7 @@ For this case we are going to use URL.
 
 ***Step 6:***
 
-Select the Source as URL and Give the URL of ISO image which you downloaded and uploaded into any S3 Bucket storage. Select OS and Flavour ( SIZE OF THE VM) , Workload Profile ( Server, Desktop etc..), Name of the VM. Finally Click Next button.
+Select the Source as URL and Give the URL of ISO image which you downloaded and uploaded into any S3 Bucket storage. Select OS and Flavour ( Size of the vm) , Workload Profile ( Server, Desktop etc..), Name of the VM. Finally Click Next button.
 
 <img src="images/vmdetails1.png" width="900" >
 
@@ -149,7 +149,7 @@ Once the VM created successfully,View VM details. if you have choosen option sta
 
 In the VM details page click the **Console** tap and by default ***VNC Console*** got selected. You can able see OS boot configuration progress.
 
-## OS Installation and Configuration
+## OS installation and configuration
 
 Based on your ISO image of Operating System the configuration will begins.  For this case, we are using **RHEL 8** ISO image for creating RHEL based Linux VM.
 
@@ -171,7 +171,7 @@ Choose the disk for OS installation and click done.
 
 ***Step 3:***
 
-Select the **Network & Host Name** in  Installation summary page. Enable Ethernet and apply hostname or go with default hostname.
+Select the **Network & Host Name** in  installation summary page. Enable Ethernet and apply hostname or go with default hostname.
 
 <img src="images/network&host.png" width="900" >
 
@@ -187,11 +187,11 @@ usersettings.png
 
 <img src="images/usersettings.png" width="900" >
 
-Set the root Password.
+Set the root password.
 
 <img src="images/rootpwd.png" width="900" >
 
-Create the Username
+Create the username
 
 <img src="images/usercreation.png" width="900" >
 
@@ -212,7 +212,7 @@ Start the VM.
 
 ***Step 8:***
 
-Once you started the VM the Final Cobnfiguration page will appear. Select **License Information** and click the agreement.  
+Once you started the VM the final configuration page will appear. Select **License Information** and click the agreement.  
 
 <img src="images/finalconfiguration.png" width="900" >
 
